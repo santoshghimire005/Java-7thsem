@@ -11,6 +11,11 @@ public class AbstractClassDemo {
         t.c=4;
         t.getArea();
         t.getPerimeter();
+        Circle c= new Circle();
+        c.info("Circle","white");
+        c.r=5;
+        c.getArea();
+        c.getPerimeter();
     }
 
 }
@@ -68,7 +73,7 @@ class Triangle extends Shape {
 }
 
 class Circle extends Shape {
-    double r;
+    int r;
     @Override
     public void getArea() {
         System.out.println("The area of circle is " + (3.14*r*r));
