@@ -5,6 +5,7 @@ public class InterfaceClass {
     A a= new A();
     a.print();
     a.show();
+
     
    
 }
@@ -16,6 +17,7 @@ class A implements printable, showable{
 
     public void show(){
         System.out.println("welcome to show ");
+        print(); // calling print method inside the same class
         
     }
 }
