@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Factor {
     public static void main(String[] args) {
         Scanner input= new Scanner(System.in);
+        System.out.println("enter the number");
     int num= input.nextInt();
     int fact= 1;
     System.out.println("The factors of the number are ");
